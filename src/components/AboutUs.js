@@ -25,7 +25,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="px-4 md:px-8 md:py-12 bg-gray-100">
+    <div className="px-4 md:px-8 py-4 md:py-12 bg-gray-100">
       {/* Main Heading and Text */}
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center font-custom">
         Our Journey to Success!
