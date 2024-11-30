@@ -19,7 +19,7 @@ function Navbar() {
         {/* Brand Logo */}
         <div>
           <Link to="/" className="text-primary" onClick={handleLinkClick}>
-            <img src="./Images/TekProwess.jpg" alt="Tekprowess Logo" className="w-28 h-16 md:w-48 md:h-24" />
+            <img src="./Images/TekProwess.jpg" alt="Tekprowess Logo" className="w-28 h-16 md:w-52 md:h-24" />
           </Link>
         </div>
 
