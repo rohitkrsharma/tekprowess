@@ -68,26 +68,26 @@ const Home = () => {
   ];
   const cards = [
     {
-      title: "Assistance",
-      subtitle: "Reliable",
+      title: "Driving progress through creative and forward-thinking solutions.",
+      subtitle: "Innovation",
       icon: "/Images/support.jpg",
       bgColor: "bg-gradient-to-r from-[#0045fd] to-[#007EDF]", // Dark blue to lighter blue
     },
     {
-      title: "CONFIDENTIALITY",
-      subtitle: "100%",
+      title: "Building trust through honesty, transparency, and accountability.",
+      subtitle: "Integrity",
       icon: "/Images/confidential.jpg",
       bgColor: "bg-gradient-to-r from-[#008000] to-[#66D9EF]", // Dark green to light blue-green
     },
     {
-      title: "DELIVERY",
-      subtitle: "Timely",
+      title: "Striving for the highest standards in everything we do.",
+      subtitle: "Excellence",
       icon: "/Images/delivery.png",
       bgColor: "bg-gradient-to-r from-[#004C8C] to-[#00AFFF]", // Dark cyan to light cyan
     },
     {
-      title: "PRICING",
-      subtitle: "Affordable",
+      title: "Partnering with clients to achieve shared success.",
+      subtitle: "Collaboration",
       icon: "/Images/pricing.jpg",
       bgColor: "bg-gradient-to-r from-[#B8860B] to-[#FFB347]", // Darker gold to light orange
     },
@@ -257,7 +257,7 @@ const Home = () => {
                 />
               </div>
               <h3 className="text-xl font-bold">{card.subtitle}</h3>
-              <p className="text-lg mt-2 ">{card.title}</p>
+              <p className="text-lg mt-2 text-center">{card.title}</p>
             </div>
           ))}
         </div>
