@@ -164,7 +164,7 @@ const Home = () => {
         </SwiperSlide>
       </Swiper>
       {/* Card Section */}
-      <div className="px-4 md:px-8 md:py-12">
+      <div className="px-4 md:px-8 py-4 md:py-12">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center font-custom">Our Experties</h2>
         <p className="text-gray-500 pb-4 px-4  text-lg md:text-xl text-center mb-8">TekProwess operates with a "Customer-First Approach" philosophy, delivering comprehensive IT services using the latest cutting-edge technology.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
