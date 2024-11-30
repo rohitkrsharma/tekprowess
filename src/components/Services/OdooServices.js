@@ -4,32 +4,32 @@ const servicesData = [
   {
     title: 'Implementation',
     description: 'With over a decade of expertise dating back to the early days of TinyERP, TekProwess LLP ensures each implementation is seamless and meticulously planned. Our experienced team handles every detail, allowing your organization to quickly and effectively unlock the full potential of your ERP system with ease and confidence.',
-    image: '../images/implementation.jpg'
+    image: '../Images/implementation.jpg'
   },
   {
     title: 'Customization',
     description: 'We understand that no two businesses are alike. That’s why we specialize in tailoring solutions to perfectly fit your specific workflows and requirements. Our customizations prioritize intuitive design and user-friendliness, empowering your team to achieve their goals efficiently.',
-    image: '../images/customization.jpg'
+    image: '../Images/customization.jpg'
   },
   {
     title: 'Development',
     description: 'Our skilled developers bring years of expertise to creating custom modules and features that add real value. By focusing on flexibility and innovation, we help your system evolve alongside your business’s changing needs and market demands.',
-    image: '../images/development.jpg'
+    image: '../Images/development.jpg'
   },
   {
     title: 'Integration',
     description: 'For a truly seamless operational experience, we ensure your system integrates effortlessly with other tools and platforms. Our integration services enhance data flow, streamline processes, and optimize overall business efficiency.',
-    image: '../images/integration.jpg'
+    image: '../Images/integration.jpg'
   },
   {
     title: 'Consulting',
     description: 'With hands-on expertise, TekProwess LLP offers consulting services that provide strategic insights and practical solutions. We guide you on optimizing your system’s use and making informed decisions tailored to your business objectives.',
-    image: '../images/consulting.jpg'
+    image: '../Images/consulting.jpg'
   },
   {
     title: 'Migration',
     description: 'Managing migrations can be challenging, but TekProwess LLP ensures smooth, secure transitions with minimal disruption. From data transfers to system updates, we handle all aspects of migration, keeping your business operations on track and growing.',
-    image: '../images/migration.jfif'
+    image: '../Images/migration.jfif'
   },
   {
     title: 'Support',

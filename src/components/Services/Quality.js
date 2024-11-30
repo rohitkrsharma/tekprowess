@@ -4,22 +4,22 @@ const qualityData = [
   {
     title: 'Manual Testing',
     description: 'Our hands-on manual testing services involve a detailed examination of applications in real-world usage scenarios. This approach uncovers usability issues, functional inconsistencies, and edge cases that automated methods may miss. We meticulously validate every feature to ensure the final product meets client expectations and industry standards.',
-    image: '../images/Manual-testing.jpg'
+    image: '../Images/Manual-testing.jpg'
   },
   {
     title: 'Automation Testing',
     description: 'To enhance efficiency and precision, we offer robust automation testing solutions using advanced tools and frameworks. By automating repetitive tests, we significantly reduce retesting time and broaden test coverage. This accelerates release cycles, ensures consistent results, and enables faster defect detection for high-performing software.',
-    image: '../images/automation-testing.jpg'
+    image: '../Images/automation-testing.jpg'
   },
   {
     title: 'Mobile Testing',
     description: 'Given the critical role of mobile devices, our mobile testing services ensure applications perform flawlessly on diverse devices and operating systems, including iOS and Android. We focus on usability, functionality, and overall user experience, ensuring your app is responsive, intuitive, and optimized for users on the move.',
-    image: '../images/mobile-testing.jfif'
+    image: '../Images/mobile-test.jpg'
   },
   {
     title: 'Performance Testing',
     description: 'Application performance is crucial to success. Our performance testing simulates varying user loads, from a few to hundreds of users, to evaluate how applications handle increased demand. This helps identify bottlenecks and scalability issues early, ensuring optimal performance and reliability even under peak usage conditions.',
-    image: '../images/performance-testing.jfif'
+    image: '../Images/performance-testing.jfif'
   }
 ];
 
