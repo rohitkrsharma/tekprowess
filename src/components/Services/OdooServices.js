@@ -34,7 +34,7 @@ const servicesData = [
   {
     title: 'Support',
     description: 'Our dedication extends far beyond initial deployment. TekProwess provides ongoing support to ensure your system remains reliable, responsive, and optimized. We address troubleshooting needs, performance fine-tuning, and evolving requirements with precision.',
-    image: '../images/supportt.jpg'
+    image: '../Images/supportt.jpg'
   },
 ];
 
