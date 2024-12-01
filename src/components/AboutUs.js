@@ -8,7 +8,7 @@ const AboutUs = () => {
   const accordionData = [
     {
       title: "Where We Want To Be",
-      content: `“TekProwess”\n\nWe do not believe in competing with others, rather competing with our-self only. By trusting on our capabilities, our goal is to always set standards of excellence in Technology and inspire upcoming companies. Our vision is to become the most flexible and respected IT services brand. Consistency in our “Wow- Web Apps, Mobile Apps” services is the ultimate breadth of view.`,
+      content: `We do not believe in competing with others, rather competing with our-self only. By trusting on our capabilities, our goal is to always set standards of excellence in Technology and inspire upcoming companies. Our vision is to become the most flexible and respected IT services brand. Consistency in our “Wow- Web Apps, Mobile Apps” services is the ultimate breadth of view.`,
     },
     {
       title: "Where We Are",

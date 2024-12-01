@@ -292,7 +292,7 @@ const Contact = () => {
               <p className="ml-3">
                 <span className='font-semibold'>Corporate Office:</span>
                 D-202, Kasturi Epitome,
-                VMunjoba Nagar,Wakad,<br />
+                Munjoba Nagar,Wakad,<br />
                 Pune 411057,
                 Maharashtra, India
               </p>

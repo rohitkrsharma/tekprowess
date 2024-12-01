@@ -37,15 +37,33 @@ const servicesData = [
     image: '../Images/supportt.jpg'
   },
 ];
-
 const OdooServices = () => {
   return (
     <div className="font-roboto">
       {/* Header Section with Primary Color Background */}
-      <div className=" text-white px-4 h-48 flex items-center justify-center relative"
-        style={{ background: 'linear-gradient(to right, #00BFFF,#0066CC)' }}
+      <div
+        className="text-white px-4 h-48 flex flex-col items-center justify-center relative text-center"
+        style={{ background: 'linear-gradient(to right, #00BFFF, #0066CC)' }}
       >
-        <h1 className="text-4xl font-bold">Odoo Services</h1>
+        <h1 className="text-4xl font-bold mb-2">Odoo Services</h1>
+        {/* Odoo Partner Badge */}
+        <p
+          className="text-lg px-4 py-1 rounded-lg shadow-lg font-semibold bg-white inline-block"
+          style={{
+            position: 'relative',
+            display: 'inline-block',
+          }}
+        >
+          <span
+            style={{
+              background: 'linear-gradient(to right, #00BFFF, #0066CC)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+            }}
+          >
+           We Are Official Odoo Partner
+          </span>
+        </p>
         {/* Optional background design */}
         <div className="absolute inset-0 bg-pattern opacity-10"></div>
       </div>
@@ -53,7 +71,10 @@ const OdooServices = () => {
       {/* Cards Container */}
       <div className="container mx-auto px-4 md:px-8 py-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {servicesData.map((service, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+          <div
+            key={index}
+            className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
+          >
             {/* Image Section */}
             <img
               src={service.image}
@@ -63,7 +84,9 @@ const OdooServices = () => {
 
             {/* Content Section */}
             <div className="p-6">
-              <h2 className="text-2xl font-semibold mb-4 text-primary">{service.title}</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-primary">
+                {service.title}
+              </h2>
               <p className="text-gray-700">{service.description}</p>
             </div>
           </div>
@@ -72,5 +95,4 @@ const OdooServices = () => {
     </div>
   );
 };
-
 export default OdooServices;

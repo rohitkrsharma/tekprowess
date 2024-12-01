@@ -4,31 +4,11 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   // JSON data for the cards with your new content
-  const services = [
-    {
-      title: "ERP Services",
-      description: "TekProwess offers comprehensive ERP solutions to enhance your business operations, leveraging the world's most widely used business software, Odoo.",
-      image: "/Images/erp.jpg",
-    },
-    {
-      title: "Software Development",
-      description: "We showcase exceptional use of the latest technology through customized, business-focused, and responsive website development.",
-      image: "/Images/software.jpg",
-    },
-    {
-      title: "Mobile App Development",
-      description: "Our mobile app development team tackles real business challenges for clients with deep technical expertise and an innovative approach.",
-      image: "/Images/mobile-test.jpg",
-    },
-    {
-      title: "Quality Assurance",
-      description: "At TekProwess, we are dedicated to delivering high-quality software solutions through our comprehensive Quality Assurance (QA) services.",
-      image: "/Images/quality.jpg",
-    }
-  ];
+
   const data = [
     {
       heading: "Unwavering Commitment to Work and Clients",
@@ -168,19 +148,65 @@ const Home = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center font-custom">Our Experties</h2>
         <p className="text-gray-500 pb-4 px-4  text-lg md:text-xl text-center mb-8">TekProwess operates with a "Customer-First Approach" philosophy, delivering comprehensive IT services using the latest cutting-edge technology.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {services.map((service, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-lg hover:shadow-3xl transition-transform duration-300 transform hover:scale-105 p-6"
-            // style={{ borderColor: '#0066CC' }}
-            >
+          {/* ERP Services Card */}
+          <Link to="/services/Odoo-Services" className="block">
+            <div className="bg-white rounded-lg shadow-lg hover:shadow-3xl transition-transform duration-300 transform hover:scale-105 p-6">
               <img
-                src={service.image}
-                alt={service.title}
+                src="/Images/erp.jpg"
+                alt="ERP Services"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-custom font-bold mb-4">{service.title}</h3>
-              <p className="text-gray-700">{service.description}</p>
+              <h3 className="text-2xl font-custom font-bold mb-4">ERP Services</h3>
+              <p className="text-gray-700">
+                TekProwess offers comprehensive ERP solutions to enhance your business operations, leveraging the world's most widely used business software, Odoo.
+              </p>
             </div>
-          ))}
+          </Link>
+
+          {/* Software Development Card */}
+          <Link to="/services/software-development" className="block">
+            <div className="bg-white rounded-lg shadow-lg hover:shadow-3xl transition-transform duration-300 transform hover:scale-105 p-6">
+              <img
+                src="/Images/software.jpg"
+                alt="Software Development"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-2xl font-custom font-bold mb-4">Software Development</h3>
+              <p className="text-gray-700">
+                We showcase exceptional use of the latest technology through customized, business-focused, and responsive website development.
+              </p>
+            </div>
+          </Link>
+
+          {/* Mobile App Development Card */}
+          <Link to="/services/Mobile-Application" className="block">
+            <div className="bg-white rounded-lg shadow-lg hover:shadow-3xl transition-transform duration-300 transform hover:scale-105 p-6">
+              <img
+                src="/Images/mobile-test.jpg"
+                alt="Mobile App Development"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-2xl font-custom font-bold mb-4">Mobile App Development</h3>
+              <p className="text-gray-700">
+                Our mobile app development team tackles real business challenges for clients with deep technical expertise and an innovative approach.
+              </p>
+            </div>
+          </Link>
+
+          {/* Quality Assurance Card */}
+          <Link to="/services/quality-assurance" className="block">
+            <div className="bg-white rounded-lg shadow-lg hover:shadow-3xl transition-transform duration-300 transform hover:scale-105 p-6">
+              <img
+                src="/Images/quality.jpg"
+                alt="Quality Assurance"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-2xl font-custom font-bold mb-4">Quality Assurance</h3>
+              <p className="text-gray-700">
+                At TekProwess, we are dedicated to delivering high-quality software solutions through our comprehensive Quality Assurance (QA) services.
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
 
@@ -240,9 +266,8 @@ const Home = () => {
       </div>
       <div className="px-4 md:px-8 py-12">
         <h2 className="text-3xl md:text-4xl font-bold text-center font-custom mb-8">
-          Why Select Us <br /> As We Are the Leading Application Development Company
+          Why Select Us
         </h2>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {cards.map((card, index) => (
             <div
