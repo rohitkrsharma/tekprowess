@@ -56,7 +56,7 @@ const Home = () => {
     {
       title: "Building trust through honesty, transparency, and accountability.",
       subtitle: "Integrity",
-      icon: "/Images/integrity.jpg",
+      icon: "/Images/integration.jpg",
       bgColor: "bg-gradient-to-r from-[#008000] to-[#66D9EF]", // Dark green to light blue-green
     },
     {
