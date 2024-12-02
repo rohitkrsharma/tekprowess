@@ -56,19 +56,19 @@ const Home = () => {
     {
       title: "Building trust through honesty, transparency, and accountability.",
       subtitle: "Integrity",
-      icon: "/Images/confidential.jpg",
+      icon: "/Images/integrity.jpg",
       bgColor: "bg-gradient-to-r from-[#008000] to-[#66D9EF]", // Dark green to light blue-green
     },
     {
       title: "Striving for the highest standards in everything we do.",
       subtitle: "Excellence",
-      icon: "/Images/delivery.png",
+      icon: "/Images/excellence.jpg",
       bgColor: "bg-gradient-to-r from-[#004C8C] to-[#00AFFF]", // Dark cyan to light cyan
     },
     {
       title: "Partnering with clients to achieve shared success.",
       subtitle: "Collaboration",
-      icon: "/Images/pricing.jpg",
+      icon: "/Images/collaboration.jpg",
       bgColor: "bg-gradient-to-r from-[#B8860B] to-[#FFB347]", // Darker gold to light orange
     },
   ];
@@ -266,7 +266,7 @@ const Home = () => {
       </div>
       <div className="px-4 md:px-8 py-12">
         <h2 className="text-3xl md:text-4xl font-bold text-center font-custom mb-8">
-          Why Select Us
+          Foundations of Our success
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {cards.map((card, index) => (
