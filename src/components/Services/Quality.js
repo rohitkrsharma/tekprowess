@@ -20,6 +20,16 @@ const qualityData = [
     title: 'Performance Testing',
     description: 'Application performance is crucial to success. Our performance testing simulates varying user loads, from a few to hundreds of users, to evaluate how applications handle increased demand. This helps identify bottlenecks and scalability issues early, ensuring optimal performance and reliability even under peak usage conditions.',
     image: '../Images/performance-testing.jfif'
+  },
+  {
+    title: 'Security Testing',
+    description: 'Application security is vital to protect sensitive data and maintain user trust. Our security testing identifies vulnerabilities by simulating potential threats and attacks. We thoroughly assess applications for weaknesses, ensuring they are safeguarded against unauthorized access, data breaches, and other security risks, providing a robust and secure user experience.',
+    image: '../Images/Security.jpg'
+  },
+  {
+    title: 'Accessibility Testing',
+    description: `Accessibility testing ensures that applications provide a seamless and user-friendly experience for a diverse audience. By simulating real-world scenarios and adhering to industry standards, we evaluate the application's design, navigation, and functionality to ensure usability for everyone. This process helps eliminate barriers, enhancing engagement and inclusivity for all users.`,
+    image: '../Images/Accessibilities.png'
   }
 ];
 
