@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="flex gap-1 items-center  md:justify-start">
               <FaPhoneAlt className="text-gray-300 text-xl" />
               <p className="ml-2">
-                <a href="tel:+919711149581" className="hover:underline hover:text-primary">+91-9711149581</a>
+                <a href="tel:+918788998085" className="hover:underline hover:text-primary">+91-878-899-8085</a>
               </p>
             </div>
             <div className="flex items-center  md:justify-start mt-2">

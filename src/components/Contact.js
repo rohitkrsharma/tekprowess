@@ -301,7 +301,7 @@ const Contact = () => {
             <div className="flex gap-1 items-center mt-4">
               <FaPhoneAlt className="text-primary text-xl" />
               <p>
-                <a href="tel:+919711149581" className="hover:underline hover:text-primary">+91-9711149581</a>
+                <a href="tel:+918788998085" className="hover:underline hover:text-primary">+91-878-899-8085</a>
               </p>
             </div>
 
