@@ -61,7 +61,7 @@ const OdooServices = () => {
               WebkitTextFillColor: 'transparent',
             }}
           >
-           We Are Official Odoo Partner
+            We Are Official Odoo Partner
           </span>
         </p>
         {/* Optional background design */}
