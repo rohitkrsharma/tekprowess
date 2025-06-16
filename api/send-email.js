@@ -1,5 +1,4 @@
 const nodemailer = require('nodemailer');
-require('dotenv').config(); // Only for local dev
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
@@ -24,7 +23,7 @@ module.exports = async (req, res) => {
 
   const mailOptions = {
     from: `"${from_name}" <${from_email}>`,
-    to: 'rsharm8986@gmail.com',
+    to: 'info@tekprowess.com',
     subject: 'New Contact Form Submission',
     html: `
       <h2>New Contact Form Submission</h2>

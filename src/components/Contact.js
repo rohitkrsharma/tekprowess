@@ -42,7 +42,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     const emailParams = {
       from_name: formData.name,
       from_email: formData.email,
@@ -54,9 +54,8 @@ const Contact = () => {
       custom_service: formData.customService,
       message: formData.message,
     };
-  
+
     try {
-      // Send a POST request to the serverless function
       const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: {
@@ -64,10 +63,11 @@ const Contact = () => {
         },
         body: JSON.stringify(emailParams),
       });
-  
+
+      const data = await response.json();
+
       if (response.ok) {
         setIsSubmitted(true);
-        // Reset form data
         setFormData({
           name: '',
           email: '',
@@ -84,13 +84,15 @@ const Contact = () => {
           formRef.current.scrollIntoView({ behavior: 'smooth' });
         }
       } else {
-        throw new Error('Failed to send message');
+        throw new Error(data.message || 'Failed to send message');
       }
     } catch (error) {
+      console.error('Error:', error);
       alert('Error sending message: ' + error.message);
     }
   };
-  
+
+
 
   return (
     <div className="px-4 md:px-8 md:py-12 bg-gray-100 flex flex-wrap justify-between" ref={formRef}>
